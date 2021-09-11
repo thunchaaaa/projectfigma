@@ -43,7 +43,7 @@ function addItem(id,name,price,size,image,detail) {
         "txtDetail":detail
     };
     let finItem = oldItems.concat(newItem);
-    localStorage.setItem('items', JSON.stringify(finItem));
+    localStorage.setItem('products', JSON.stringify(finItem));
 };
 
 
